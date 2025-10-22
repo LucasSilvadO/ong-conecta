@@ -1,0 +1,139 @@
+/* Estilos criados por Lucas Silva de Oliveira - Projeto ONG Conecta */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center; /*  centraliza todo o conteúdo de texto e imagens */
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+}
+
+
+/* Cabeçalho e rodapé */
+header, footer {
+    background-color: #0a6fa0;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.logo {
+    width: 50%;
+    max-width: 250px; /* nunca passa disso */
+    height: auto;
+}
+
+#sobre img {
+    width: 70%;        /* ocupa 70% da largura da tela */
+    max-width: 500px;  /* não passa de 500px */
+    height: auto;      /* mantém proporção */
+    border-radius: 10px; /* deixa cantos arredondados, opcional */
+}
+
+article img {
+    width: 100%;       /* imagem ocupa a largura do container */
+    max-width: 600px;  /* limite máximo */
+    height: auto;      /* mantém proporção */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+aside {
+    text-align: center;
+}
+
+aside ul {
+    display: inline-block;
+    text-align: left;
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a.ativo {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 20px;
+}
+
+section, aside {
+    margin-bottom: 20px;
+}
+
+/* Formulário estilizado */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: #0a6fa0;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #0a6fa0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #094e73;
+}
+
+@media (max-width: 600px) {
+    #sobre img,
+    article img {
+        width: 100%;   /* ocupa 100% da tela */
+        max-width: none; /* remove limite */
+    }
+
+    .logo {
+        width: 120px;  /* diminui a logo no celular */
+    }
+}
