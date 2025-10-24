@@ -1,6 +1,7 @@
 /* ===========================================
    Projeto: ONG Conecta
    Autor: Lucas Silva de Oliveira
+   Versão Final Corrigida
    =========================================== */
 
 body {
@@ -127,7 +128,7 @@ button {
   margin-top: 5px;
 }
 
-/* Botão de envio */
+/* ==== Botão ==== */
 button,
 input[type="submit"] {
   background-color: #0a6fa0;
@@ -142,6 +143,7 @@ input[type="submit"]:hover {
   background-color: #094e73;
 }
 
+/* ==== Bloco de Introdução do Cadastro ==== */
 #intro-cadastro {
   background-color: #ffffff;
   max-width: 600px;
@@ -160,7 +162,6 @@ input[type="submit"]:hover {
   font-size: 1.1em;
   color: #333;
 }
-
 
 /* ==== Responsividade ==== */
 @media (max-width: 900px) {
